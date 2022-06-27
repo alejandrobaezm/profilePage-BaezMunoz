@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+            <ul class="nav-right-section">
+                <li>
+                    <a href="../index.html">INDEX</a>
+                </li>
+                <li>
+                    <a href="/pages/galeria.html">GALERIA</a>
+                </li>
+                <li>
+                    <a href="/pages/formulario.html">FORMULARIO</a>
+                </li>
+                <li>
+                    <a href="/pages/blog.html">BLOG</a>
+                </li>
+                <li>
+                    <a href="/pages/contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form id="formulario">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="" id="nombre">
+            </div>
+            <div>
+                <label for="numero">Numero</label>
+                <input type="number" name="" id="numero">
+            </div>
+            <div>
+                <label for="email1">Email</label>
+                <input type="email" name="" id="email1" required>
+            </div>
+            <div>
+                <label for="pass">Contrasena</label>
+                <input type="password" name="" id="pass">
+            </div>
+        </fieldset>
+        <div>
+            <h3>Seleccione uno</h3>
+            <label for="si">Si</label>
+            <input type="radio" name="elegir" id="si">
+            <label for="no">No</label>
+            <input type="radio" name="elegir" id="no">
+        </div>
+        <div>
+            <h3>Seleccione los que quiera</h3>
+            <label for="opcion1">Opcion 1</label>
+            <input type="checkbox" name="select" id="opcion1">
+            <label for="opcion2">Opcion 2</label>
+            <input type="checkbox" name="select" id="opcion2">
+            <label for="opcion3">Opcion 3</label>
+            <input type="checkbox" name="select" id="opcion3">
+            <label for="opcion4">Opcion 4</label>
+            <input type="checkbox" name="select" id="opcion4">
+        </div>
+        <div>
+            <select name="" id="">
+                <option value="" disabled>Seleccione una opcion</option>
+                <option value="">Opcion 1</option>
+                <option value="">Opcion 2</option>
+                <option value="">Opcion 3</option>
+                <option value="">Opcion 4</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar formulario">
+        <input type="button" value="Una accion">
+    </form>
+    <footer class="footer_1 foot">
+        <ul class="footer_1">
+            <li>
+                <span>Todos los derechos reservados</span>
+            </li>
+            <li>
+                <span>Bogota - Colombia - 2022</span>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
